@@ -1,0 +1,39 @@
+body {
+    background: #eee;
+    text-align: center;
+  }
+
+  .fields {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .field {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    background: gray;
+    border-radius: 50%;
+  }
+  
+  .has_goblin {
+    background-image: url(2dbd01ce16c0fa83cb67e20c73dedb66.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  .stats {
+      width: 500px;
+
+  }
+
+  .points {
+      font-weight: bold;
+      font-size: 40px;
+  }
